@@ -1,3 +1,4 @@
+'''
 dCalendar = CALENDAR (MIN ('fSales_Data'[Order Date]), MAX ('fSales_Data'[Order Date]))
 
 Day = dCalendar[Date].[Day]
@@ -49,3 +50,4 @@ IF (
 )
 
 TooltipStateTitle = SELECTEDVALUE(fSales_Data[State])
+'''
